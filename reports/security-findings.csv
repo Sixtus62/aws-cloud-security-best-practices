@@ -1,0 +1,7 @@
+ID,Category,Finding,Risk,Recommendation,Status
+SG-001,Security Group,SSH open to 0.0.0.0/0,High,Restrict SSH to trusted IP,Remediated
+IAM-001,IAM,User has excessive permissions,High,Apply least privilege,Open
+IAM-002,IAM,MFA not enabled,High,Enable MFA,Open
+KEY-001,Key Pair,Private key stored insecurely,High,Secure private key,Remediated
+S3-001,S3,Public access not blocked,High,Enable S3 Block Public Access,Remediated
+S3-002,S3,Encryption not enabled,Medium,Enable server-side encryption,Remediated

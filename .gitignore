@@ -1,0 +1,15 @@
+# AWS private keys
+*.pem
+*.key
+
+# Environment variables
+.env
+
+# AWS credentials
+credentials
+
+# Secrets
+*.secret
+
+# OS files
+.DS_Store
